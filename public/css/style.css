@@ -237,11 +237,11 @@ nav {
 .proyectos-content li ul li i {
 	color: #424242;
 }
-.conocimientos-content .title {
-	margin-left: 10px;
-}
 .conocimientos-content .title .fa-li {
 	color: #424242;
+}
+.conocimientos-content .title .text {
+	margin-left: 9px;
 }
 .conocimientos-content .entrada p {
 	font-size: 1.15em;
