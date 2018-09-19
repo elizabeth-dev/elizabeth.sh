@@ -71,7 +71,7 @@ h1 {
 nav {
     width: 100%;
     background-color: #313131;
-    color: #F6FFEA;
+    color: #f6ffea;
     position: fixed;
     z-index: 10;
     display: flex;
@@ -104,7 +104,7 @@ nav {
 .line {
 	content: "";
 	display: inline-block;
-	background-color: #F6FFEA;
+	background-color: #f6ffea;
 	opacity: 0.30;
 	width: 1px;
 	height: 2em;
@@ -151,7 +151,7 @@ nav {
 }
 .category {
 	width: 75%;
-	background-color: #F6FFEA;
+	background-color: #ffffff;
 	margin: 14% auto 6% auto;
 	padding: 3% 4%;
 	box-sizing: border-box;
