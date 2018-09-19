@@ -181,6 +181,7 @@ nav {
 .title {
 	font-size: 1.75em;
 	color: #174C66;
+	line-height: 32px;
 }
 .sobre-content {
 	display: flex;
