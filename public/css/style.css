@@ -298,6 +298,8 @@ footer a:hover {
 	}
 	.nav-buttons {
 		justify-content: center;
+		height: 100%;
+		margin-left: 0;
 	}
 	.nav-buttons a {
 		margin: 15% 10% 5% 10%;
