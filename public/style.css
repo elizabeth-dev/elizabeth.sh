@@ -51,7 +51,7 @@ body {
     display: flex;
 }
 
-.card .links .link svg {
+.card .links .link .icon {
     height: 60px;
     width: 60px;
     margin: 8px;
