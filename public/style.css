@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #666666;
+
+    background-image: url("./assets/background.svg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    text-align: center;
+}
+
+.card .excavator {
+    width: 120px;
+    height: 120px;
+}
+
+.card .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+
+.card .links .link {
+    display: flex;
+}
+
+.card .links .link svg {
+    height: 60px;
+    width: 60px;
+    margin: 8px;
+
+}

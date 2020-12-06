@@ -2,175 +2,36 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Elizabeth</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+	<title>Elizabeth Martín Campos</title>
 </head>
 <body>
-	<nav id="nav">
-		<div class="wrapper">
-			<span>Elizabeth Martín Campos</span>
-		<a href="javascript:void(0);" class="menu-icon" onclick="menu()"><i class="fa fa-bars fa-fw fa-lg"></i></a>
-		</div>
-		<div class="menu" id="menu">
-			<div class="nav-links">
-				<a href="#sobre" onclick="linkScroll(this);return false;"><div><span>Sobre mí</span></div></a>
-				<a href="#formacion" onclick="linkScroll(this);return false;"><div><span>Formación</span></div></a>
-				<a href="#proyectos" onclick="linkScroll(this);return false;"><div><span>Proyectos</span></div></a>
-				<a href="#conocimientos" onclick="linkScroll(this);return false;"><div><span>Conocimientos</span></div></a>
-			</div>
-			<div class="nav-buttons">
-				<a href="https://github.com/elizabeth-dev"><i class="fab fa-github fa-fw"></i></a>
-				<a href="https://linkedin.com/in/elizabeth-dev"><i class="fab fa-linkedin fa-fw"></i></a>
-				<a href="mailto:eli@zabeth.es"><i class="fas fa-envelope fa-fw"></i></a>
-			</div>
-		</div>
-	</nav>
-	<div id='b-4' class="background"></div>
-	<div id='b-3' class="background"></div>
-	<div id='b-2' class="background"></div>
-	<div id='b-1' class="background"></div>
-	<span id="sobre"></span>
-	<div id="sobreC" class="category left">
-		<h1>Sobre mí</h1>
-		<div class="sobre-content content">
-			<ul class="fa-ul">
-				<li><span class="fa-li"><i class="fas fa-map-marker-alt fa-fw"></i></span>Madrid, España</li>
-				<li><span class="fa-li"><i class="fas fa-phone fa-fw"></i></span>(+34) 611 490 147</li>
-				<li><span class="fa-li"><i class="fas fa-envelope fa-fw"></i></span><a href="mailto:eli@zabeth.es">eli@zabeth.es</a></li>
-				<li><span class="fa-li"><i class="fab fa-github fa-fw"></i></span><a href="https://github.com/elizabeth-dev">elizabeth-dev</a></li>
-				<li><span class="fa-li"><i class="fab fa-linkedin-in fa-fw"></i></span><a href="https://linkedin.com/in/elizabeth-dev">elizabeth-dev</a></li>
-			</ul>
-			<p>
-				Tengo experiencia utilizando sistemas informáticos de distintos entornos. Poseo una certificación MCSA reciente de Windows Server, además de un gran hábito en el uso de sistemas GNU/Linux. Cuento con conocimientos en el uso y despliegue de servicios de distintos tipos como DNS, HTTP/2, E-mail (IMAP+SMTP), SSH, MySQL o DHCP, así como nociones de diversos lenguajes como Node.js, Python, SQL o PHP, y frameworks como Angular, React.js, o Express.js. Soy una persona apasionada por la informática, y con muchas ganas de trabajar y seguir aprendiendo.
-			</p>
-		</div>
+<div class="card">
+	<img alt="Excavator icon" class="excavator" src="./assets/icons/excavator.svg">
+	<h1>Under construction</h1>
+	<p>Hopefully I'll finish this soon. Meanwhile, there's some relevant links:</p>
+	<div class="links">
+		<a class="link linkedin" href="https://www.linkedin.com/in/elizabeth-dev/" title="elizabeth-dev">
+			<svg>
+				<use href="./assets/icons/linkedin.svg#el"></use>
+			</svg>
+		</a>
+		<a class="link github" href="https://github.com/elizabeth-dev" title="elizabeth-dev">
+			<svg>
+				<use href="./assets/icons/github.svg#el"></use>
+			</svg>
+		</a>
+		<a class="link mail" href="mailto:me@elizabeth.sh" title="me@elizabeth.sh">
+			<svg>
+				<use href="./assets/icons/email.svg#el"></use>
+			</svg>
+		</a>
 	</div>
-	<span id="formacion"></span>
-	<div id="formacionC" class="category right">
-		<h1>Formación y certificaciones</h1>
-		<div class="formacion-content content">
-			<ul class="fa-ul">
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-chevron-right fa-fw fa-sm"></i></span>Administración de Sistemas Informáticos en Red
-					</span>
-					<ul class="fa-ul">
-						<li><span class="fa-li"><i class="fas fa-map-marker-alt fa-fw"></i></span>IES Clara del Rey, Madrid</li>
-						<li><span class="fa-li"><i class="fas fa-calendar fa-fw"></i></span>2017 - Actualidad</li>
-					</ul>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-chevron-right fa-fw fa-sm"></i></span>MCSA Windows Server 2012
-					</span>
-					<ul class="fa-ul">
-						<li><span class="fa-li"><i class="fas fa-map-marker-alt fa-fw"></i></span>Formación Ocupacional Canaria, Tenerife</li>
-						<li><span class="fa-li"><i class="fas fa-calendar fa-fw"></i></span>2017</li>
-					</ul>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-chevron-right fa-fw fa-sm"></i></span>Bachillerato
-					</span>
-					<ul class="fa-ul">
-						<li><span class="fa-li"><i class="fas fa-map-marker-alt fa-fw"></i></span>IES Andrés Bello, Tenerife</li>
-						<li><span class="fa-li"><i class="fas fa-calendar fa-fw"></i></span>2015 - 2017</li>
-					</ul>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-chevron-right fa-fw fa-sm"></i></span>Certificado de nivel avanzado en la lengua inglesa (Nivel B2)
-					</span>
-					<ul class="fa-ul">
-						<li><span class="fa-li"><i class="fas fa-map-marker-alt fa-fw"></i></span>Escuela Oficial de Idiomas, Tenerife</li>
-						<li><span class="fa-li"><i class="fas fa-calendar fa-fw"></i></span>2017</li>
-					</ul>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-chevron-right fa-fw fa-sm"></i></span>Montaje y mantenimiento de sistemas telefónicos con centralitas de baja capacidad
-					</span>
-					<ul class="fa-ul">
-						<li><span class="fa-li"><i class="fas fa-map-marker-alt fa-fw"></i></span>Formación Ocupacional Canaria, Tenerife</li>
-						<li><span class="fa-li"><i class="fas fa-calendar fa-fw"></i></span>2016</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<span id="proyectos"></span>
-	<div id="proyectosC" class="category left">
-		<h1>Proyectos</h1>
-		<div class="proyectos-content content">
-			<ul class="fa-ul">
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-chevron-right fa-fw fa-sm"></i></span>NearBot <span class="langs"><i class="fab fa-node-js fa-fw fa-lg"></i> <i class="fab fa-aws fa-fw fa-lg"></i></span>
-					</span>
-					<ul>
-						<li><i class="fab fa-github fa-fw fa-lg"></i><a href="https://github.com/elizabeth-dev/NearBot-Madrid">  elizabeth-dev/NearBot-Madrid</a></li>
-						<li>NearBot es un proyecto reciente, aunque con una versión funcional ya publicada. Consiste en un bot el cuál, a través de la ubicación del usuario, puede ofrecerle la localicación de diferentes puntos de interés, como pueden ser supermercados, estaciones de metro, fuentes de agua, o aseos públicos, entre otros. Actualmente sólo está disponible en Madrid, y aunque a día de hoy ya es funcional, es uno de los proyectos a los que más camino le queda, en forma de añadir más puntos de interés, más ciudades, e incluso la posibilidad de convertirlo en una app para poder ser usada más cómodamente. Funciona usando Botgram, un framework para crear bots de Telegram, y Node.js v8.10. Además, utiliza AWS Lambda como plataforma serverless, y AWS DynamoDB como motor de bases de datos NoSQL.</li>
-					</ul>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-chevron-right fa-fw fa-sm"></i></span>MaterialDB <span class="langs"><i class="fab fa-angular fa-fw fa-lg"></i> <i class="fab fa-php fa-fw fa-lg"></i> <i class="fab fa-laravel fa-fw fa-lg"></i></span>
-					</span>
-					<ul>
-						<li><i class="fab fa-github fa-fw fa-lg"></i><a href="https://github.com/elizabeth-dev/MaterialDB">  elizabeth-dev/MaterialDB</a></li>
-						<li>Proyecto en desarrollo. MaterialDB es un cliente de bases de datos cuyos principios se basan en obtener una plena funcionalidad, pero buscando la simplicidad y la sencillez necesarias por parte del usuario medio de la informática, empleando un entorno accesible y claro como Material Design. Está escrito en PHP (framework Laravel), y usa el framework Angular para construir la interfaz front-end.</li>
-					</ul>
-				</li>
-			</ul>	
-		</div>
-	</div>
-	<span id="conocimientos"></span>
-	<div id="conocimientosC" class="category right">
-		<h1>Conocimientos y aptitudes</h1>
-		<div class="conocimientos-content content">
-			<ul class="fa-ul">
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-server fa-fw fa-lg"></i></span>
-						<div class="text">Gestión de servidores</div>
-					</span>
-					<p>Tengo experiencia administrando servidores tanto con entornos Windows Server, como con GNU/Linux. Sé desplegar muchos de los servicios de uso común, así como llevar a cabo su monitorización y auditoría de seguridad. También poseo conocimientos en el uso de tecnologías de virtualización como Hyper-V, KVM o Docker.</p>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-database fa-fw fa-lg"></i></span>
-						<div class="text">Administración de bases de datos</div>
-					</span>
-					<p>Sé administrar y diseñar bases de datos relacionales en SGBDs como MySQL/MariaDB o Oracle Database, y recientemente he empezado a interesarme por bases de datos de tipo NoSQL como MongoDB o DynamoDB. Uno de los proyectos que he iniciado, MaterialDB, tiene el objetivo de ser un cliente de bases de datos compatible con múltiples SGBD, con lo cual este es uno de los campos de la informática en los que pretendo seguir expandiendo mis conocimientos.</p>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-wifi fa-fw fa-lg"></i></span>
-						<div class="text">Administración de redes</div>
-					</span>
-					<p>Poseo conocimientos generales en la administración de redes y diferentes servicios en red, como pueden ser DNS, DHCP, IPAM, o elementos de seguridad y rendimiento como firewalls o balanceadores de carga. Especialmente, sé estructurar y configurar redes con dispositivos Cisco, aunque también he trabajado con servicios basados tanto en Linux como en Windows Server</p>
-				</li>
-				<li class="entrada">
-					<span class="title">
-						<span class="fa-li"><i class="fas fa-code fa-fw fa-lg"></i></span>
-						<div class="text">Diseño y desarrollo con tecnologías web</div>
-					</span>
-					<p>Recientemente he empezado a aprender en materia de programación, especialmente mediante tecnologías web, como pueden ser PHP, Node.js, Typescript, y frameworks como Angular, React.js, o Express.js. En especial, me centro en aprender sobre diseño de aplicaciones, y suelo seguir guías como Material Design. Además, puedo adaptarme fácilmente a diferentes escenarios en los que se requieran conocimientos específicos de otras áreas o lenguajes. También tengo conocimientos de Python, aunque actualmente no haya iniciado ningún proyecto en el que lo use.</p>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<footer>
-		<span>
-			Diseñado y desarrollado por Elizabeth Martín Campos<br>
-			Código fuente en <a href="https://github.com/elizabeth-dev/eli.zabeth.es">GitHub</a>
-		</span>
-	</footer>
-	<script src="js/scroll.js"></script>
-	<script src="js/links.js"></script>
-	<script src="js/menu.js"></script>
+</div>
 </body>
 </html>
+
